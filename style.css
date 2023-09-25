@@ -9,6 +9,7 @@
     --bradius: 5px;
     
 }
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
 @font-face {
     font-family: font;
     src: url(Norse-Bold.otf);
@@ -18,11 +19,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 body{
     display: flex;
     flex-direction: column;
-    height: var(--bd-height);
+    max-height: var(--bd-height);
 }
 .header{
     font-family: font;
@@ -95,14 +97,14 @@ input{
 }
 label{
     position: absolute;
-    
+     
 }
 .formy{
     color: var(--backuphigh);
 }
 button{
     border-radius: 5px;
-    width: 15rem;
+    width: 10rem;
     height: 2rem;
     background-color: var(--scolor);
     margin-left: 16px;
@@ -129,4 +131,7 @@ h3{
     font-size: 20px;
     text-align: center;
     color: #374c37;
+}
+p{
+     font-family: 'Bitter';
 }
